@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPersonajes"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#45DF4B"
+        android:fontFamily="casual"
+        android:text="Personajes "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnUbicaciones"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#45DF4B"
+        android:fontFamily="casual"
+        android:text="Ubicaciones "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPersonajes" />
+
+    <Button
+        android:id="@+id/btnEpisodios"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#45DF4B"
+        android:fontFamily="casual"
+        android:text="Episodios "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUbicaciones" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="392dp"
+        android:layout_height="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/letrero" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
